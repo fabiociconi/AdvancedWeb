@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/" title="Root" description="Root">
+    <siteMapNode url="~/Default.aspx" title="Home"/>
+    <siteMapNode  title="Equations">
+      <!-- the sub menus-->
+      <siteMapNode url="~/SimpleEquation.aspx" title="SimpleEquation"/>
+      <siteMapNode url="~/PolynomialEquations.aspx" title="PolynomialEquations"/>
+      <!--end sub menus-->
+    </siteMapNode>
+    <siteMapNode url="~/AboutUS.aspx" title="AboutUS"/>
+    <siteMapNode url="~/ContactUs.aspx" title="ContactUs"/>
+  </siteMapNode>
+</siteMap>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>\Images-fabio\CentennialCollege-banner.jpg</ImageUrl>
+    <NavigateUrl>http://www.centennialcollege.ca/</NavigateUrl>
+    <TargetUrl>_blank</TargetUrl>
+    <AlternateText>blank</AlternateText>
+    <Keyword>blank</Keyword>
+    <Impressions>1</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>\Images-fabio\Banner-Fabio.jpg</ImageUrl>
+    <NavigateUrl>http://www.fabiociconi.wixsite.com/meusite</NavigateUrl>
+    <TargetUrl>_blank</TargetUrl>
+    <AlternateText>blank</AlternateText>
+    <Keyword>blank</Keyword>
+    <Impressions>2</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>\Images-fabio\banner-teacher.png</ImageUrl>
+    <NavigateUrl>http://smrdibaj.wixsite.com/smrezadibaj/teaching</NavigateUrl>
+    <TargetUrl>_blank</TargetUrl>
+    <AlternateText>blank</AlternateText>
+    <Keyword>blank</Keyword>
+    <Impressions>3</Impressions>
+  </Ad>
+</Advertisements>

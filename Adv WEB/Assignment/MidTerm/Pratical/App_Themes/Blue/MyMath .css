@@ -1,0 +1,42 @@
+﻿body {
+    font-family: Verdana, Arial;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+#Image1 {
+     width: 26%;
+    height: auto;
+}
+
+
+.Header {
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    background-color: cornflowerblue;
+}
+
+
+.Menu {
+    top: 180px;
+    width: 200px;
+    position: absolute;
+    left: 16px;
+    cursor: pointer;
+}
+
+a:link, a:visited, a.popout {
+    text-decoration: none;
+    color: Blue;
+}
+
+.Content {
+    top: 160px;
+    left: 450px;
+    position: absolute;
+    width: 600px;
+}

@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.Master.cs" Inherits="Pratical.Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="App_Themes/Blue/MyMath%20.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="Header">
+           <asp:Image ID="Image1" runat="server" ImageUrl="~/Content/logo.jpg" />
+            
+
+        </div>
+        <!-- Menu -->
+        <div class="Menu">
+            <asp:SiteMapDataSource ID="siteMap" runat="server"
+                ShowStartingNode="false" />
+            <asp:Menu ID="menu" runat="server" DataSourceID="siteMap" StaticSubMenuIndent="16px" OnMenuItemClick="menu_MenuItemClick">
+            </asp:Menu>
+        </div>
+        <!-- Content -->
+        <div>
+            <div class="Content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <p class="student">Fabio Alexandre Ciconi - 300930989 - Based on "Build Your Own ASP.NET 4 Website Using C# & VB, 4th Edition" </p>
+        </div>
+    </form>
+</body>
+</html>

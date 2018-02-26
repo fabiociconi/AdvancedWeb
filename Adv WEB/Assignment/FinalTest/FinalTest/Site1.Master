@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="FinalTest.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <%--start declaretion bootstrap--%>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <%--end declaretion bootstrap--%>
+
+    <%--start declaretion CSS FILES--%>
+    <link href="App_Themes/Blue/StyleSheet1.css" rel="stylesheet" />
+
+
+    <%--END declaretion CSS FILES--%>
+    <title>FINAL TEST</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <%--HEADER --%>
+        <div id="topContent">
+            <asp:Label Text="TIM TEBOW FOUDATION" runat="server" BorderColor="#3333CC" Font-Size="X-Large"></asp:Label>
+        </div>
+        <%-- Nav Bar MENU --%>
+
+        <div class="container">
+            <a href="../Default.aspx">Home</a>
+            <a href="../NewArrivals.aspx">New Arrivals</a>
+            <a href="../Men.aspx">Men</a>
+            <a href="../Women.aspx">Women</a>
+            <div class="dropdown">
+                <button class="dropbtn">Gift Cards</button>
+                <div class="dropdown-content">
+                <a href="PointCards.aspx">Point Cards</a>
+                <a href="CreditCards.aspx">Credit Cards</a>
+                </div>
+            </div>
+            <a href="../Contact.aspx">Contact</a>
+        </div>
+        
+  <br />
+
+        <%-- Main -CONTENT --%>
+        <div id="mainContent">
+            <asp:ContentPlaceHolder ID="body" runat="server">
+                <a href="Default.aspx">Main Content</a>
+            </asp:ContentPlaceHolder>
+            <%--background--%>
+        </div>
+        <%-- FOOTER --%>
+        <div id="footerContent">
+            <br />
+            <p style="left: 0px;">&copy;2017 Centennial College.&nbsp; </p>
+        </div>
+    </form>
+</body>
+</html>

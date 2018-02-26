@@ -1,0 +1,153 @@
+﻿body {
+    font-family: Verdana, Arial;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+html body {
+  height: 100%;
+  /*overflow: hidden;*/
+}
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    vertical-align: baseline;
+    outline: 0;
+}
+
+
+.student {
+    position:center;
+}
+
+h1 {
+    height: 60px;
+    width: 100%;
+    background-color: #2196F3;
+    position: relative;
+    margin: auto;
+}
+
+h2 {
+    height: 60px;
+    width: 100%;
+    background-color: #FFC107;
+    position: relative;
+    margin: auto;
+}
+
+div#login {
+}
+.navigation {
+  width: 300px;
+}
+.mainmenu, .submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.mainmenu a {
+  display: block;
+  background-color: #2196F3;
+  text-decoration: none;
+  padding: 10px;
+  color: #000;
+}
+.mainmenu a:hover {
+    background-color: orange;
+}
+.mainmenu li:hover .submenu {
+  display: block;
+  max-height: 200px;
+}
+.submenu a {
+  background-color: #999;
+}
+
+.submenu a:hover {
+  background-color: #666;
+}
+.submenu {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: all 0.5s ease-out;
+}
+#ContentPlaceHolder1_UserLabel {
+display: block;
+    float: left;
+}
+
+#ContentPlaceHolder1_PassLabel {
+    position: absolute;
+    left: 0px;
+    top: 25px;
+    /* padding: 0px; */
+    margin: 5px 0 0;
+    display: block;
+}
+#ContentPlaceHolder1_TextUser {
+        display: block;
+    position: relative;
+    top: 3px;
+    left: 15px;
+}
+#ContentPlaceHolder1_TipLabel{
+   
+    display: block;
+    position: relative;
+    top: 35px;
+    left: 33px;
+    font-size: 23px;
+
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #2196f3;
+    border-color: #ffc107;
+}
+#ContentPlaceHolder1_TextPass
+{
+           display: block;
+    position: relative;
+    left: 86px;
+    top: 8px;
+
+}
+.container {
+    display: block;
+    top: -79px;
+    left: 237px;
+    margin: 0 0 0;
+     height: 2px; 
+}
+.footer {
+    display: block;
+    /* margin: 0 0 0; */
+    top: 600px;
+    position: absolute;
+    width: 100%;
+    height: 29px;
+    background-color: #FF9800;
+    /* left: 366px; */
+}
+
+.logo {
+    top: 24px;
+    position: absolute;
+    width: 128px;
+    left: 30px;
+}
+
+.Content {
+    display: block;
+    /* margin: 0 0 0; */
+    top: 150px;
+    position: absolute;
+    height: 390px;
+    background-color: rgb(241, 237, 238);
+    left: 340px;
+    width: 758px;
+    /* max-height: 470px; */
+}

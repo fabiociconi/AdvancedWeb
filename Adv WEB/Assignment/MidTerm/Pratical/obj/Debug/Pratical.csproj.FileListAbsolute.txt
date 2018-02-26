@@ -1,0 +1,6 @@
+C:\Users\ZeusAC\Desktop\College Courses\17W --Adv. Web Application Developme (SEC. 003)\Exercises\MidTerm\Pratical\bin\Pratical.dll.config
+C:\Users\ZeusAC\Desktop\College Courses\17W --Adv. Web Application Developme (SEC. 003)\Exercises\MidTerm\Pratical\bin\Pratical.dll
+C:\Users\ZeusAC\Desktop\College Courses\17W --Adv. Web Application Developme (SEC. 003)\Exercises\MidTerm\Pratical\bin\Pratical.pdb
+C:\Users\ZeusAC\Desktop\College Courses\17W --Adv. Web Application Developme (SEC. 003)\Exercises\MidTerm\Pratical\obj\Debug\Pratical.csprojResolveAssemblyReference.cache
+C:\Users\ZeusAC\Desktop\College Courses\17W --Adv. Web Application Developme (SEC. 003)\Exercises\MidTerm\Pratical\obj\Debug\Pratical.dll
+C:\Users\ZeusAC\Desktop\College Courses\17W --Adv. Web Application Developme (SEC. 003)\Exercises\MidTerm\Pratical\obj\Debug\Pratical.pdb
